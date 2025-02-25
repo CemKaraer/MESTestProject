@@ -1,7 +1,7 @@
 [
   {
-    "PALLET_NO": "B000000000006605",
-    "SERIAL_NO": "SN00000077",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000097",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -13,11 +13,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006605",
-    "SERIAL_NO": "SN00000078",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000098",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -29,11 +30,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006605",
-    "SERIAL_NO": "SN00000079",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000099",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -45,11 +47,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006605",
-    "SERIAL_NO": "SN00000080",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000100",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -61,11 +64,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006605",
-    "SERIAL_NO": "SN00000081",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000101",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -77,11 +81,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006606",
-    "SERIAL_NO": "SN00000082",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000102",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -93,11 +98,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006606",
-    "SERIAL_NO": "SN00000083",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000103",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -109,11 +115,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006606",
-    "SERIAL_NO": "SN00000084",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000104",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -125,11 +132,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006606",
-    "SERIAL_NO": "SN00000085",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000105",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -141,11 +149,12 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   },
   {
-    "PALLET_NO": "B000000000006606",
-    "SERIAL_NO": "SN00000086",
+    "PALLET_NO": "B000000000006607",
+    "SERIAL_NO": "SN00000106",
     "WORKNUMBER": "RO-2024-138",
     "GRADE": "",
     "PS_CODE": "",
@@ -157,6 +166,7 @@
     "WAREHOUSE_NAME": "",
     "ORDER_DATE": "",
     "LOCATION_NAME": "",
-    "PART_NAME": ""
+    "PART_NAME": "",
+    "UNIT_CODE": "ADET"
   }
 ]
