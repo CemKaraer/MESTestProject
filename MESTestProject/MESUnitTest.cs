@@ -13,10 +13,11 @@ namespace MESTestProject
         private readonly string baseUri = "https://mtnav.guzelenerji.com.tr/api/MES";
         // private readonly string baseUri = "http://localhost/dwi_clone/api/MES";
 
+        #region POST
         [TestMethod]
-        public async Task TestPostProductionReturn()
+        public async Task TestPostMaterialConsumption()
         {
-            var result = await HttpPost(baseUri + "/PostProductionReturn", FileContent("PostProductionReturn.json"));
+            var result = await HttpPost(baseUri + "/PostMaterialConsumption", FileContent("PostMaterialConsumption.json"));
         }
 
         [TestMethod]
@@ -26,28 +27,37 @@ namespace MESTestProject
         }
 
         [TestMethod]
+        public async Task TestPostRework()
+        {
+            var result = await HttpPost(baseUri + "/PostRework", FileContent("PostRework.json"));
+        }
+        #endregion
+
+        #region GET
+        [TestMethod]
         public async Task TestGetWorkOrderInformation()
         {
-            var result = await HttpGet(baseUri + "/GetWorkOrderInformation");
+            var result = await HttpGet(baseUri + "/GetWorkOrderInformation", "GetWorkOrderInformationParameter.json");
         }
 
         [TestMethod]
         public async Task TestGetWorkOrderBOMInformation()
         {
-            var result = await HttpGet(baseUri + "/GetWorkOrderBOMInformation");
+            var result = await HttpGet(baseUri + "/GetWorkOrderBOMInformation", "GetWorkOrderBOMInformationParameter.json");
         }
 
         [TestMethod]
         public async Task TestGetMaterialPickingList()
         {
-            var result = await HttpGet(baseUri + "/GetMaterialPickingList");
+            var result = await HttpGet(baseUri + "/GetMaterialPickingList", "GetMaterialPickingListParameter.json");
         }
 
         [TestMethod]
-        public async Task GetMaterialPickingDetail()
+        public async Task TestGetMaterialPickingDetail()
         {
-            var result = await HttpGet(baseUri + "/GetMaterialPickingDetail");
+            var result = await HttpGet(baseUri + "/GetMaterialPickingDetail", "GetMaterialPickingDetailParameter.json");
         }
+        #endregion
 
         private static async Task<string> HttpPost(string url, string jsonContent)
         {
@@ -65,14 +75,14 @@ namespace MESTestProject
             }
         }
 
-        private static async Task<string> HttpGet(string url)
+        private static async Task<string> HttpGet(string url, string parameterFile)
         {
             try
             {
                 using (HttpClient httpClient = new HttpClient())
                 {
                     httpClient.DefaultRequestHeaders.Add("MES-Header", FileContent("Header.json"));
-                    return await (await httpClient.GetAsync($"{url}?input={Uri.EscapeDataString(FileContent("Parameter.json"))}")).Content.ReadAsStringAsync();
+                    return await (await httpClient.GetAsync($"{url}?input={Uri.EscapeDataString(FileContent(parameterFile))}")).Content.ReadAsStringAsync();
                 }
             }
             catch (Exception exc)

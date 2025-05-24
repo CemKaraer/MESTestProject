@@ -1,0 +1,17 @@
+[
+  {
+    "WORK_ORDER_NUMBER": "RO-2024-215",
+    "DETAIL": [
+      {
+        "ITEM_NO": "N1-CK-1",
+        "ITEM_LOT": "TEST_15_05_2025",
+        "QTY": 1000
+      },
+      {
+        "ITEM_NO": "N1-HC-1",
+        "ITEM_LOT": "TEST_15_05_2025",
+        "QTY": 1000
+      }
+    ]
+  }  
+]

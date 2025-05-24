@@ -1,0 +1,18 @@
+[
+  {
+    "FILTER_FIELD": "PickOrderNo",
+    "FILTER_VALUE": "TSİRS-000000080"
+  },
+  {
+    "FILTER_FIELD": "WorkOrderNo",
+    "FILTER_VALUE": ""
+  },
+  {
+    "FILTER_FIELD": "FromDate",
+    "FILTER_VALUE": ""
+  },
+  {
+    "FILTER_FIELD": "EndDate",
+    "FILTER_VALUE": ""
+  }
+]
